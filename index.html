@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Round-Robin</title>
+	</head>
+	<body>
+		<header>
+			<h1>Tournoi</h1>
+		</header>
+		<main>
+			<div class="team-input">
+				<div class="player1">
+					<p>Joueur 1</p>
+					<input id="P1" type="text" required />
+					<button id="add">Ajouter</button>
+				</div>
+				<div class="player2">
+					<p>Joueur 2</p>
+					<input id="P2" type="text" required />
+					<button id="add2">Ajouter</button>
+				</div>
+			</div>
+			<div class="array">
+				<table class="teams">
+					<th id="array1">Joueur 1</th>
+					<th>Joueur 2</th>
+				</table>
+				<button class="draw">Tirez au sort</button>
+			</div>
+			<div class="round-robin">
+				<div class="round of 32"><h2>16e de final</h2></div>
+				<div class="round of 16"><h2>8e de final</h2></div>
+				<div class="round of 8"><h2>Quart de final</h2></div>
+				<div class="semi-final">
+					<h2>Demi-finale</h2>
+				</div>
+				<div class="final"><h2>FINALE</h2></div>
+			</div>
+		</main>
+	</body>
+	<script type="text/javascript" src="app.js"></script>
+</html>

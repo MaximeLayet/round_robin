@@ -1,0 +1,19 @@
+body {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.team-input {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+}
+
+p {
+	display: flex;
+	justify-content: space-around;
+}
